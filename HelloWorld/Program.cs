@@ -170,39 +170,94 @@ namespace HelloWorld
             foodlist[2] = "Meat";
             foodlist[3] = "Wine";
             foodlist[4] = "Bread";
-            Console.WriteLine("{0}, {1}, {2}, {3}, {4}", foodlist[0], foodlist[1], foodlist[2], foodlist[3], foodlist[4]);
+            //Console.WriteLine("{0}, {1}, {2}, {3}, {4}", foodlist[0], foodlist[1], foodlist[2], foodlist[3], foodlist[4]);
 
-            int[] foodAmount = new int[] {1000 , 100 , 2000 , 10000 , 1500  };
-            Console.WriteLine(foodAmount[0]+ "," + foodAmount[1]+ "," + foodAmount[2] + "," + foodAmount[3] +"," + foodAmount[4]);
+            int[] foodAmount = new int[] { 1000, 100, 2000, 10000, 1500 };
+            //Console.WriteLine(foodAmount[0]+ "," + foodAmount[1]+ "," + foodAmount[2] + "," + foodAmount[3] +"," + foodAmount[4]);
 
-            Console.WriteLine(foodlist[0] + " " + foodAmount[0] + "," + foodlist[1] + " " + foodAmount[1] + "," + foodlist[2] + " " + foodAmount[2] + "," + foodlist[3] + " " + foodAmount[3] + "," + foodlist[4] + " " + foodAmount[4]);
+            //Console.WriteLine(foodlist[0] + " " + foodAmount[0] + "," + foodlist[1] + " " + foodAmount[1] + "," + foodlist[2] + " " + foodAmount[2] + "," + foodlist[3] + " " + foodAmount[3] + "," + foodlist[4] + " " + foodAmount[4]);
 
-            Console.WriteLine(foodlist.Length);
+            //Console.WriteLine(foodlist.Length);
 
-            string[] elements = messageTwo.Split(' ');
-            Console.WriteLine(elements[0]); // prints "I"
-            Console.WriteLine(elements[1]); // prints "am"
-            Console.WriteLine(elements[2]); // prints "Spartacus"
+            //string[] elements = messageTwo.Split(' ');
+            //Console.WriteLine(elements[0]); // prints "I"
+            //Console.WriteLine(elements[1]); // prints "am"
+            //Console.WriteLine(elements[2]); // prints "Spartacus"
 
-            Console.WriteLine(elements.Length);
+            //Console.WriteLine(elements.Length);
 
-            string myName = "Sue";
-            char[] letters = myName.ToCharArray();
-            Console.WriteLine("The first letter of my name is " + letters[0]);
-            Console.WriteLine("The second letter of my name is " + letters[1]);
-            Console.WriteLine("The third letter of my name is " + letters[2]);
+            //string myName = "Sue";
+            //char[] letters = myName.ToCharArray();
+            //Console.WriteLine("The first letter of my name is " + letters[0]);
+            //Console.WriteLine("The second letter of my name is " + letters[1]);
+            //Console.WriteLine("The third letter of my name is " + letters[2]);
 
-           // Console.WriteLine(letters.Length);
-           // letters[0] = 's';
+            // Console.WriteLine(letters.Length);
+            // letters[0] = 's';
             //letters[1] = 'u';
             //letters[2] = 'e';
             //Console.WriteLine("{0}{1}{2}", letters[0], letters[1], letters[2]);
 
+            //part fourteen while loop example
+            //string action = " ";
+            //while (action != "exit")
+            //{
+            //    Console.WriteLine("What is your rank soldier?");
+            //    string rank = Console.ReadLine();
 
+            //    Console.WriteLine("What is your age soldier?");
+            //    int age = int.Parse(Console.ReadLine());
+            //    Console.WriteLine("What is your job soldier?");
+            //    string job = Console.ReadLine();
 
+            //    if ((rank == "officer") || (age <= 26))
+            //    {
+            //        Console.WriteLine("Get your gear, kiss your family goodbye, put on your marching boots.");
+            //    }
+            //    else if ((job == "cook") || (age >= 26))
+            //    {
+            //        Console.WriteLine("My army has to eat. Pack your pots and pans");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Sorry you are staying home.");
+            //    }
+            //    Console.WriteLine("Add another? Type exit to quit");
+            //    action = Console.ReadLine();
+            //}
 
+            //string action = " ";
+            //do
+            //{
+            //    Console.WriteLine("What is your rank soldier?");
+            //    string rank = Console.ReadLine();
 
+            //    Console.WriteLine("What is your age soldier?");
+            //    int age = int.Parse(Console.ReadLine());
+            //    Console.WriteLine("What is your job soldier?");
+            //    string job = Console.ReadLine();
 
+            //    if ((rank == "officer") || (age <= 26))
+            //    {
+            //        Console.WriteLine("Get your gear, kiss your family goodbye, put on your marching boots.");
+            //    }
+            //    else if ((job == "cook") || (age >= 26))
+            //    {
+            //        Console.WriteLine("My army has to eat. Pack your pots and pans");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Sorry you are staying home.");
+            //    }
+            //    Console.WriteLine("Add another? Type exit to quit");
+            //    action = Console.ReadLine();
+            //} while (action != "exit");
+
+            //Part fifteen for-loop examples
+            for (int i = 0; i < foodAmount.Length; i++)
+            {
+                Console.WriteLine(i);
+            }
 
 
 
